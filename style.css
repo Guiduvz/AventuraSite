@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(img/AventuraBackG.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 140vh;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #322C2C;
+    height: 59px;
+    color: white;
+}
+
+nav div:nth-child(1){
+    font-size: 40px;
+}
+
+nav div:nth-child(2){
+    font-size: 40px;
+}
+
+
+ul{
+    display: flex;
+    gap: 59px;
+    list-style: none;
+}
+
+main{
+    display: flex;
+    padding-top: 105px;
+    justify-content: center;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    align-items: center;
+    gap: 120px;
+}
+
+button{
+    position: relative;
+    display: flex;
+    background-color: white;
+    border-radius: 60px;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    width:  200px;
+    height: 50px;
+    border: none;
+    align-items: center;
+    justify-content: space-around;
+    gap: -20px;
+    white-space: nowrap;
+}
+
+
+h1{
+    color: black;
+    font-size: 50px;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.seta{
+    width: 42px;
+}
